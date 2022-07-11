@@ -1,0 +1,33 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px;
+    position: static;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-placeholder {
+    background-color: #eee;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 260px;
+}
