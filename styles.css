@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 ul li {
@@ -22,6 +22,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    list-style-type: none;
 }
 
 .image-placeholder {
@@ -30,4 +31,25 @@ ul {
     height: 180px;
     margin: 5px;
     width: 260px;
+}
+
+.rando {
+    background-color: #3882F6;
+}
+
+.quote {
+    background-color: #e5e7eb;
+
+}
+
+.sign-up {
+
+}
+
+.hero {
+    background-color: #1f2937;
+}
+
+footer {
+    background-color: #1f2937;
 }
