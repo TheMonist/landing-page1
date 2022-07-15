@@ -6,6 +6,7 @@ body {
     background-color: #1F2937;
     display: flex;
     margin: 0;
+    height: 100vh;
 }
 
 .hero1 {
@@ -26,8 +27,12 @@ body {
 
 #nav-bar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: #1F2937;
 }
 
 footer {
@@ -37,42 +42,65 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0;
+    width: 100%;
 }
 
 .quote {
     background-color: #E5E7EB;
     display: flex;
+    width: 100%;
+    margin: 0;
 }
 
 .quote-text {
     font-size: 36px;
     color: #1F2937;
-    font-weight: light italic;
+    font-weight: light-italic;
 }
 
 .rando-text-1 {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
-    display: inline;
-    align-items: center;
+    display: flex;
+    align-items: flex-start;
 }
 
 .rando-text-2 {
     color: #1F2937;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
 }
 
 ul {
     list-style: none;
+    display: flex;
+    margin: 2rem;
+}
+
+ul > li {
+    padding: 10px;
 }
 
 .rando {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     margin: 0;
+    height: 200vh;
+    width: 100%;
 }
 
 .button {
     background-color: #3882f6;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 12px;
 }
 
 a:link {
@@ -93,4 +121,18 @@ a:hover {
 a:active {
     text-decoration: none;
     color: #3882f6;
+}
+
+.image-placeholder {
+    background-color: #eee;
+    display: flex;
+    height: 180px;
+    margin: 5px;
+    width: 260px;
+}
+
+.sign-up {
+    height: 75vh;
+    display: grid;
+    place-items: center;
 }
