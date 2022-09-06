@@ -76,7 +76,6 @@ footer {
 }
 
 .call {
-    background-color: #3882f6;
     margin: 0;
     padding: 10px;
     color: #F9FAF8;
@@ -106,7 +105,8 @@ ul {
     color: #F9FAF8;
     padding: 10px;
     text-align: center;
-    display: inline-block;
+    display: inline-flex;
+    align-items: flex-end;
     margin: 4px 2px;
     border-radius: 12px;
 }
@@ -155,3 +155,18 @@ img {
     width: 260px;
     height: 180px;
 }
+
+.layer {
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 140px;
+    width: 800px;
+}
+
