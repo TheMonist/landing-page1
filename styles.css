@@ -1,5 +1,5 @@
 * {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto',Helvetica, sans-serif;
 }
 
 .hero-section {
@@ -154,6 +154,7 @@ h3 {
 img {
     width: 260px;
     height: 180px;
+    box-shadow: 0 0 10px;
 }
 
 .layer {
